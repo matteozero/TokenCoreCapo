@@ -16,10 +16,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		068DE0A9162484EF82D2CFBB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		145EB5CB5FDE084E4DF64A4A /* TokenCoreCapo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TokenCoreCapo.podspec; path = ../TokenCoreCapo.podspec; sourceTree = "<group>"; };
+		068DE0A9162484EF82D2CFBB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		145EB5CB5FDE084E4DF64A4A /* TokenCoreCapo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TokenCoreCapo.podspec; path = ../TokenCoreCapo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		368D68219902AF1DD1474D1C /* Pods-TokenCoreCapo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokenCoreCapo_Example.debug.xcconfig"; path = "Target Support Files/Pods-TokenCoreCapo_Example/Pods-TokenCoreCapo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4947D99F393A9609528BB713 /* Fastfile */ = {isa = PBXFileReference; includeInIndex = 1; name = Fastfile; path = ../fastlane/Fastfile; sourceTree = "<group>"; };
+		4947D99F393A9609528BB713 /* Fastfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Fastfile; path = ../fastlane/Fastfile; sourceTree = "<group>"; };
 		537F4E7D824A60413F4396A5 /* Pods_TokenCoreCapo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokenCoreCapo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* TokenCoreCapo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokenCoreCapo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -28,10 +28,10 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		67978061FEEE179C68092A3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		783995BB948FF5E65C88B37B /* TokenCoreCapo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TokenCoreCapo.podspec; path = ../fmk/TokenCoreCapo.podspec; sourceTree = "<group>"; };
+		67978061FEEE179C68092A3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		783995BB948FF5E65C88B37B /* TokenCoreCapo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TokenCoreCapo.podspec; path = ../fmk/TokenCoreCapo.podspec; sourceTree = "<group>"; };
 		DAFD5AAB3C9EE22989E3C1EB /* Pods-TokenCoreCapo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokenCoreCapo_Example.release.xcconfig"; path = "Target Support Files/Pods-TokenCoreCapo_Example/Pods-TokenCoreCapo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EBCC31CDF2D90389B39AE726 /* TokenCoreCapo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TokenCoreCapo.podspec; path = ../lib/TokenCoreCapo.podspec; sourceTree = "<group>"; };
+		EBCC31CDF2D90389B39AE726 /* TokenCoreCapo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TokenCoreCapo.podspec; path = ../lib/TokenCoreCapo.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,6 @@
 				368D68219902AF1DD1474D1C /* Pods-TokenCoreCapo_Example.debug.xcconfig */,
 				DAFD5AAB3C9EE22989E3C1EB /* Pods-TokenCoreCapo_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -145,6 +144,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				89F4FF43AE9E6AA8796C69DF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +167,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8BRYHQZHSM;
 						LastSwiftMigration = 0820;
 					};
 				};
@@ -204,6 +205,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		89F4FF43AE9E6AA8796C69DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TokenCoreCapo_Example/Pods-TokenCoreCapo_Example-frameworks.sh",
+				"${PODS_ROOT}/GRKOpenSSLFramework/OpenSSL-iOS/bin/openssl.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TokenCoreCapo_Example/Pods-TokenCoreCapo_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C3E7C788B8F3D9DA40E98CCC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,6 +371,7 @@
 			baseConfigurationReference = 368D68219902AF1DD1474D1C /* Pods-TokenCoreCapo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8BRYHQZHSM;
 				INFOPLIST_FILE = TokenCoreCapo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -367,6 +387,7 @@
 			baseConfigurationReference = DAFD5AAB3C9EE22989E3C1EB /* Pods-TokenCoreCapo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8BRYHQZHSM;
 				INFOPLIST_FILE = TokenCoreCapo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

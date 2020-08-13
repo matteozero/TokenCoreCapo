@@ -23,8 +23,11 @@ Pod::Spec.new do |s|
   s.requires_arc          = true
   s.static_framework = true
   s.swift_versions = ['5.0']
-
-
+  
+  s.dependency 'BigInt'
+  s.dependency 'CryptoSwift'
+  s.dependency 'CoreBitcoinSwift'
+  s.dependency 'secp256k1.swift'
 
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 
@@ -36,5 +39,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#   s.dependency 'TokenRealmCore', '~> 2.3'
 end
