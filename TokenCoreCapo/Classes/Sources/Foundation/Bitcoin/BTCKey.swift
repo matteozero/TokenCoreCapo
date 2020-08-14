@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CoreBitcoinSwift
+import CoreBitcoin
 
 public extension BTCKey {
   public func address(on network: Network?, segWit: SegWit) -> BTCAddress {

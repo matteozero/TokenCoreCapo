@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CoreBitcoinSwift
+import CoreBitcoin
 
 class EOSKey {
   private let btcKey: BTCKey

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CoreBitcoinSwift
+import CoreBitcoin
 
 extension BTCTransaction {
   func addInputs(from utxos: [UTXO], isSegWit: Bool = false) {

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CoreBitcoinSwift
+import CoreBitcoin
 
 class EOSTransactionSigner {
   private let txs: [EOSTransaction]

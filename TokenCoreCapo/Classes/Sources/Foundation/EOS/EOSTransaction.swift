@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CoreBitcoinSwift
+import CoreBitcoin
 
 public final class EOSTransaction {
   private let data: String // Hex tx data

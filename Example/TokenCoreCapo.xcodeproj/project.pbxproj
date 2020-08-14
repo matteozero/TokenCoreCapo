@@ -144,7 +144,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				89F4FF43AE9E6AA8796C69DF /* [CP] Embed Pods Frameworks */,
+				90D4748DCF03A738EB151A28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,18 +205,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		89F4FF43AE9E6AA8796C69DF /* [CP] Embed Pods Frameworks */ = {
+		90D4748DCF03A738EB151A28 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TokenCoreCapo_Example/Pods-TokenCoreCapo_Example-frameworks.sh",
-				"${PODS_ROOT}/GRKOpenSSLFramework/OpenSSL-iOS/bin/openssl.framework",
+				"${PODS_ROOT}/OpenSSL-Universal/Frameworks/ios/OpenSSL.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CoreBitcoinSwift
+import CoreBitcoin
 
 public class MnemonicValidator: Validator {
   public typealias Result = String
