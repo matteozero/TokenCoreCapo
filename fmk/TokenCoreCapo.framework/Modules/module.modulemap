@@ -1,0 +1,11 @@
+framework module TokenCoreCapo {
+  umbrella header "TokenCoreCapo-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module TokenCoreCapo.Swift {
+    header "TokenCoreCapo-Swift.h"
+    requires objc
+}
