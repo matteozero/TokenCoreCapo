@@ -9,7 +9,7 @@ PODS:
     - OpenSSL-Universal/Framework (= 1.0.0)
   - OpenSSL-Universal/Framework (1.0.0)
   - secp256k1 (0.1.5)
-  - TokenCoreCapo (1.0.1):
+  - TokenCoreCapo (1.0.2):
     - BigInt
     - CoreBitcoin
     - CryptoSwift
@@ -38,7 +38,7 @@ SPEC CHECKSUMS:
   libscrypt: c5cd136603ef1c527576127a01d8db7dc879be72
   OpenSSL-Universal: cb2324eeb714eac1e5a8ca6c3a3c039873956f72
   secp256k1: 05b63869a4b28d1b68222950cbceeb0b2dc5906e
-  TokenCoreCapo: 1df56c34fddc5687905479002db519e326fe450a
+  TokenCoreCapo: 098c14328ac00ec82417cc32a7887e6fd2cc2545
 
 PODFILE CHECKSUM: 9e1fb9701066c0b7979fb4cd4ff7f9f8f85e18d9
 
