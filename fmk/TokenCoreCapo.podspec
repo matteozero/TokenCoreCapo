@@ -26,6 +26,11 @@ Pod::Spec.new do |s|
   
   s.vendored_frameworks = 'fmk/TokenCoreCapo.framework'
   s.preserve_paths = 'fmk/TokenCoreCapo.framework'
+  
+  s.dependency 'BigInt'
+  s.dependency 'CryptoSwift'
+  s.dependency 'CoreBitcoin'
+  s.dependency 'secp256k1'
 
   # s.resource_bundles = {
   #   'TokenCoreCapo' => ['TokenCoreCapo/Assets/*.xcassets']
