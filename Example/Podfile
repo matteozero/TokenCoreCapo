@@ -1,7 +1,7 @@
 source 'https://github.com/matteozero/Specs.git'
 
 platform :ios, "10.0"
-use_frameworks! :linkage => :static
+use_frameworks! #:linkage => :static
 
 target 'TokenCoreCapo_Example' do
   pod 'TokenCoreCapo', :path => '../'

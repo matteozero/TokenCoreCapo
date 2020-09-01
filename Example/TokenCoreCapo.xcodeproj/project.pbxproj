@@ -212,13 +212,23 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TokenCoreCapo_Example/Pods-TokenCoreCapo_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
+				"${BUILT_PRODUCTS_DIR}/CoreBitcoin/CoreBitcoin.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
 				"${PODS_ROOT}/OpenSSL-Universal/Frameworks/ios/OpenSSL.framework",
+				"${BUILT_PRODUCTS_DIR}/TokenCoreCapo/TokenCoreCapo.framework",
+				"${BUILT_PRODUCTS_DIR}/libscrypt/libscrypt.framework",
 				"${PODS_ROOT}/secp256k1/fmk/secp256k1.framework",
 				"${PODS_ROOT}/secp256k1/fmk/secp256k1.framework.dSYM",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreBitcoin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TokenCoreCapo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libscrypt.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/secp256k1.framework",
 				"${DWARF_DSYM_FOLDER_PATH}/secp256k1.framework.dSYM",
 			);
