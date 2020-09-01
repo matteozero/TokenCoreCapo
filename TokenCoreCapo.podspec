@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TokenCoreCapo'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'A short description of TokenCoreCapo.'
   s.description      = <<-DESC
   TODO: Add long description of the pod here.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
   s.requires_arc          = true
-  s.static_framework = true
+#  s.static_framework = true
   s.swift_versions = ['5.0']
   
   s.dependency 'BigInt'

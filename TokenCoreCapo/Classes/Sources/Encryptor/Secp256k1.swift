@@ -9,6 +9,7 @@
 import Foundation
 import secp256k1
 
+
 extension Encryptor {
   struct SignResult {
     let signature: String // Hex format
