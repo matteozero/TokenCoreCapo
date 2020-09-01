@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A7015D636DD497D4B40ED8C /* Pods_TokenCoreCapo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537F4E7D824A60413F4396A5 /* Pods_TokenCoreCapo_Example.framework */; };
+		0EB62CE391FD580B15DF13FA /* Pods_TokenCoreCapo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54327F800C27CC91C5E61192 /* Pods_TokenCoreCapo_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -20,7 +20,7 @@
 		145EB5CB5FDE084E4DF64A4A /* TokenCoreCapo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TokenCoreCapo.podspec; path = ../TokenCoreCapo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		368D68219902AF1DD1474D1C /* Pods-TokenCoreCapo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokenCoreCapo_Example.debug.xcconfig"; path = "Target Support Files/Pods-TokenCoreCapo_Example/Pods-TokenCoreCapo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4947D99F393A9609528BB713 /* Fastfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Fastfile; path = ../fastlane/Fastfile; sourceTree = "<group>"; };
-		537F4E7D824A60413F4396A5 /* Pods_TokenCoreCapo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokenCoreCapo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54327F800C27CC91C5E61192 /* Pods_TokenCoreCapo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokenCoreCapo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* TokenCoreCapo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokenCoreCapo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7015D636DD497D4B40ED8C /* Pods_TokenCoreCapo_Example.framework in Frameworks */,
+				0EB62CE391FD580B15DF13FA /* Pods_TokenCoreCapo_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +128,7 @@
 		FB920AA611CF1DA56F6B8C98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				537F4E7D824A60413F4396A5 /* Pods_TokenCoreCapo_Example.framework */,
+				54327F800C27CC91C5E61192 /* Pods_TokenCoreCapo_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -144,7 +144,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				90D4748DCF03A738EB151A28 /* [CP] Embed Pods Frameworks */,
+				57EE751F850E9AEA58DDBE14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,7 +205,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		90D4748DCF03A738EB151A28 /* [CP] Embed Pods Frameworks */ = {
+		57EE751F850E9AEA58DDBE14 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -213,10 +213,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TokenCoreCapo_Example/Pods-TokenCoreCapo_Example-frameworks.sh",
 				"${PODS_ROOT}/OpenSSL-Universal/Frameworks/ios/OpenSSL.framework",
+				"${PODS_ROOT}/secp256k1/fmk/secp256k1.framework",
+				"${PODS_ROOT}/secp256k1/fmk/secp256k1.framework.dSYM",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/secp256k1.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/secp256k1.framework.dSYM",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

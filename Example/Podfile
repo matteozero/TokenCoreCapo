@@ -5,4 +5,6 @@ use_frameworks! :linkage => :static
 
 target 'TokenCoreCapo_Example' do
   pod 'TokenCoreCapo', :path => '../'
+#  pod 'secp256k1.swift',:git => 'https://github.com/Boilertalk/secp256k1.swift.git'
+
 end
