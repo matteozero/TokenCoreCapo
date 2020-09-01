@@ -5,5 +5,4 @@ use_frameworks! :linkage => :static
 
 target 'TokenCoreCapo_Example' do
   pod 'TokenCoreCapo', :path => '../'
-
 end

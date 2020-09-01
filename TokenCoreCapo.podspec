@@ -28,6 +28,8 @@ Pod::Spec.new do |s|
   s.dependency 'CryptoSwift'
   s.dependency 'CoreBitcoin'
   s.dependency 'secp256k1'
+#  s.dependency 'secp256k1.swift'
+
   
 
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
