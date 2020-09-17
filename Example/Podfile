@@ -1,6 +1,6 @@
 source 'https://github.com/matteozero/Specs.git'
 
-platform :ios, "13.0"
+platform :ios, "10.0"
 use_frameworks! #:linkage => :static
 
 target 'TokenCoreCapo_Example' do
