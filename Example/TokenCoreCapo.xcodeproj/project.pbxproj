@@ -218,8 +218,7 @@
 				"${PODS_ROOT}/OpenSSL-Universal/Frameworks/ios/OpenSSL.framework",
 				"${BUILT_PRODUCTS_DIR}/TokenCoreCapo/TokenCoreCapo.framework",
 				"${BUILT_PRODUCTS_DIR}/libscrypt/libscrypt.framework",
-				"${PODS_ROOT}/secp256k1/fmk/secp256k1.framework",
-				"${PODS_ROOT}/secp256k1/fmk/secp256k1.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/secp256k1/secp256k1.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -230,7 +229,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TokenCoreCapo.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libscrypt.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/secp256k1.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/secp256k1.framework.dSYM",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -332,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -372,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -388,7 +386,7 @@
 				DEVELOPMENT_TEAM = 8BRYHQZHSM;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TokenCoreCapo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aioser.demo.TokenCoreCapo-Example";
@@ -405,7 +403,7 @@
 				DEVELOPMENT_TEAM = 8BRYHQZHSM;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TokenCoreCapo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aioser.demo.TokenCoreCapo-Example";
