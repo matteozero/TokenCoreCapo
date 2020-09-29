@@ -92,7 +92,7 @@ public struct WalletMeta {
     return metadata
   }
 
-  func toJSON() -> JSONObject {
+ public func toJSON() -> JSONObject {
     var json: JSONObject = [
       "from": walletFrom?.rawValue ?? "",
       "timestamp": Int(timestamp),
