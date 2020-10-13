@@ -36,7 +36,7 @@ public class BasicWallet {
   }
 
 
-  public init(json: JSONObject) throws {
+    public init(json: JSONObject,isExportPirvateKey: Bool = false) throws {
     do {
       guard
         let version = json["version"] as? Int,
@@ -57,7 +57,7 @@ public class BasicWallet {
       case 3:
         switch chainType {
         case .eth:
-          if mnemonicKeystoreSource.contains(from) {
+          if mnemonicKeystoreSource.contains(from) && !isExportPirvateKey {
             self.keystore = try ETHMnemonicKeystore(json: json)
           } else {
             self.keystore = try ETHKeystore(json: json)
